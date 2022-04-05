@@ -191,6 +191,14 @@ h3 {
   animation: spin 1.2s linear infinite;
 }
 
+.hoverRotate {
+  transition: transform .7s ease-in-out;
+}
+
+.hoverRotate:hover {
+  transform: rotate(360deg);
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);

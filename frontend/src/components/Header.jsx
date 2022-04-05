@@ -1,4 +1,4 @@
-import {FaSignInAlt, FaSignOutAlt, FaUser} from 'react-icons/fa'
+import {FaSignInAlt, FaSignOutAlt, FaUser, FaAngellist} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 function Header() {
@@ -8,9 +8,16 @@ function Header() {
             <Link to='/'>Mern App</Link>
         </div>
         <ul>
+
+            <li>
+                <Link to='/'>
+                    <FaAngellist className='hoverRotate'/>
+                </Link>
+            </li>
+
             <li>
                 <Link to='/login'>
-                    <FaSignInAlt /> Login
+                    <FaSignInAlt/> Login
                 </Link>
             </li>
 
