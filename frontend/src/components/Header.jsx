@@ -17,7 +17,9 @@ function Header() {
   return (
     <header className='header'>
       <div className='logo'>
-        <Link to='/'>GoalSetter</Link>
+        <div className='rotate link'>
+        <Link to='/'>😵‍💫</Link>
+        </div>
       </div>
       <ul>
         {user ? (
@@ -29,12 +31,12 @@ function Header() {
         ) : (
           <>
             <li>
-              <Link to='/login'>
+              <Link className='btn' to='/login'>
                 <FaSignInAlt /> Login
               </Link>
             </li>
             <li>
-              <Link to='/register'>
+              <Link className='btn' to='/register'>
                 <FaUser /> Register
               </Link>
             </li>

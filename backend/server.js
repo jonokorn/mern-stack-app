@@ -7,10 +7,6 @@ const colors           = require('colors')
 const connectDB        = require('./config/db')
 
 
-
-
-
-  
 connectDB()
 
 const app = express()
