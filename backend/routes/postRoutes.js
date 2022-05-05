@@ -6,7 +6,7 @@ const {
     setPost,
     updatePost,
     deletePost 
-} = require('../controllers/PostController')
+} = require('../controllers/postController')
 
 
 router.get('/', protect, getPost)

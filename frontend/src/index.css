@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Mono:wght@100;200&family=Share+Tech+Mono&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Share Tech Mono', sans-serif;
   height: 100vh;
 }
 
@@ -67,10 +67,6 @@ h3 {
   align-items: center;
 }
 
-.header ul li a:hover {
-  
-}
-
 .header ul li a svg {
   margin-right: 5px;
 }
@@ -83,23 +79,22 @@ h3 {
 }
 
 .heading p {
-  color: #828282;
 }
 
-.goals {
+.posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
-.goal {
-  background-color: #f4f4f4;
+.post {
+  border: 3px dotted black;
   margin: 10px 0;
   padding: 20px 0 10px;
   position: relative;
 }
 
-.goal .close {
+.post .close {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -135,6 +130,10 @@ h3 {
 .form-group input:focus {
   outline: none;
   border: 3px dotted black;
+}
+
+.textarea {
+  resize: none;
 }
 
 .form-group label {
